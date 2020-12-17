@@ -30,7 +30,8 @@ const getSearch = event => {
 }
 
 return (
-  <Page><Label> Find out the calories in your favorite dishes! </Label>
+  <Page>
+    <Label> Find out the calories in your favorite dishes! </Label>
 <Form  className="search-form" onSubmit={getSearch} >
   
   <Input type ='text' value={search} onChange={(e) => setSearch(e.target.value)}/>
