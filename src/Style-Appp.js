@@ -11,7 +11,16 @@ align-items: center;
 export const Form = styled.form`
 width: 100%;
 height: 30%;
+display: flex;
+align-items: center;
+justify-content: center;
 
+`
+
+export const Label = styled.p`
+color: #86A3C3;
+margin: 30px;
+font-size: large;
 `
 
 export const Input = styled.input`
